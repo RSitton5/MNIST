@@ -1,0 +1,147 @@
+MKLROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl
+MANPATH=/sw/acf/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/man/en_US:/opt/moab/share/man:/usr/share/man:/usr/local/share/man
+XALT_ETC_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/etc
+HOSTNAME=acf-sc100
+PBS_VERSION=TORQUE-6.1.1.1
+TG_CLUSTER_PFS=/lustre/haven/user/rsitton2
+_MODULESBEGINENV_=/tmp/tmp.BVCVG4PXnz
+INTEL_LICENSE_FILE=/sw/cs400_centos7.3_optsoftware/intel/licenses/
+IPPROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp
+MPICH_HOME=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64
+SHELL=/bin/bash
+HISTSIZE=1000
+PBS_JOBNAME=train_mnist_dse512
+CONDA_SHLVL=1
+PERL5LIB=/nics/b/home/rsitton2/perl5/lib/perl5:/opt/moab/lib/perl5:/opt/moab/lib/perl5
+LIBRARY_PATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+ALT_LINKER=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin/ld
+XALT_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+CONDA_PROMPT_MODIFIER=(pytorch181) 
+CUE_SCRATCH=/lustre/haven/user/rsitton2
+PBS_ENVIRONMENT=PBS_BATCH
+FPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+INTEL_ARCH=intel64
+MASTER_PORT=12345
+OLDPWD=/nics/b/home/rsitton2
+QTDIR=/usr/lib64/qt-3.3
+PERL_MB_OPT=--install_base /nics/b/home/rsitton2/perl5
+QTINC=/usr/lib64/qt-3.3/include
+PBS_O_WORKDIR=/lustre/haven/proj/UTK0150/rsitton5/assignment4
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=rsitton2
+PBS_TASKNUM=1
+ANACONDA3_LIB=-L/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib
+LD_LIBRARY_PATH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/lib:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+PBS_O_HOME=/nics/b/home/rsitton2
+CONDA_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/conda
+CPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/include
+PBS_WALLTIME=900
+PBS_MOMPORT=15003
+PBS_GPUFILE=/var/spool/torque/aux//4750540.apollo-acfgpu
+ANACONDA3_DIR=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0
+_CE_CONDA=
+PBS_O_QUEUE=batch
+CPP=icc -E
+SCRATCHDIR=/lustre/haven/user/rsitton2
+MASTER_ADDR=acf-sc100
+ANACONDA3_SH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/etc/profile.d/conda.sh
+BEGINENV=99
+NLSPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64/locale/%l_%t/%N
+PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/condabin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/bin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin:/usr/local/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/rsitton2/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/rsitton2/.local/bin:/nics/b/home/rsitton2/bin:/nics/b/home/rsitton2/.local/bin:/nics/b/home/rsitton2/bin
+PBS_O_LOGNAME=rsitton2
+MAIL=/var/spool/mail/rsitton2
+PBS_O_LANG=C.UTF-8
+PBS_JOBCOOKIE=6158D3244092F247982CD7923F578652
+CONDA_PREFIX=/lustre/haven/proj/UTK0150/envs/pytorch181
+TBBROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb
+PWD=/lustre/haven/proj/UTK0150/rsitton5/assignment4
+F90=ifort
+_LMFILES_=/sw/acf-opt/modulefiles/moab/9.1.1:/sw/acf-opt/modulefiles/pbstools:/sw/acf-opt/modulefiles/intel-compilers/2018.1.163:/sw/acf-opt/modulefiles/intel-mpi/2018.1.163:/sw/acf-opt/modulefiles/PE-intel:/sw/acf/modulefiles/xalt/0.7.5:/sw/acf/modulefiles/DefApps:/sw/acf/modulefiles/anaconda3/4.4.0
+XALT_TRANSMISSION_STYLE=directdb
+LANG=C
+PBS_NODENUM=0
+TG_CLUSTER_LUSTRE=/lustre/haven/user/rsitton2
+MOABHOMEDIR=/opt/moab
+MODULEPATH=/usr/share/Modules/modulefiles:/opt/modulefiles:/sw/acf/modulefiles:/sw/acf-utk/modulefiles:/sw/acf-ut/modulefiles:/sw/acf-opt/modulefiles:/sw/acf-etsu/modulefiles
+PBS_NUM_NODES=1
+KDEDIRS=/usr
+LOADEDMODULES=moab/9.1.1:pbstools:intel-compilers/2018.1.163:intel-mpi/2018.1.163:PE-intel:xalt/0.7.5:DefApps:anaconda3/4.4.0
+PE_COMPILER=intel
+PBS_O_SHELL=/bin/bash
+F77=ifort
+CUE_SCRATCH_TYPE=lustre
+PBS_JOBID=4750540.apollo-acf
+_CE_M=
+ENVIRONMENT=BATCH
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+CXX=icpc
+HOME=/nics/b/home/rsitton2
+SHLVL=2
+PBS_O_HOST=acf-login8.acf.nics.utk.edu
+FC=ifort
+PBS_VNODENUM=0
+PERL_LOCAL_LIB_ROOT=:/nics/b/home/rsitton2/perl5
+CONDA_PYTHON_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/python
+LOGNAME=rsitton2
+PYTHONPATH=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/libexec
+TG_CLUSTER_SCRATCH=/lustre/haven/user/rsitton2
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PBS_QUEUE=batch
+XDG_DATA_DIRS=/nics/b/home/rsitton2/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+I_MPI_HYDRA_BOOTSTRAP=pbsdsh
+CONDA_DEFAULT_ENV=pytorch181
+ANACONDA3_INC=-I/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/include
+PBS_O_MAIL=/var/spool/mail/rsitton2
+PBS_O_SUBMIT_FILTER=/usr/local/sbin/torque_submitfilter
+PBS_MICFILE=/var/spool/torque/aux//4750540.apollo-acfmic
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PBS_NP=1
+CC=icc
+PBS_O_SERVER=apollo-acf
+PBS_NUM_PPN=1
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+I_MPI_ARCH=intel64
+INCLUDE=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+LMOD_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+PBS_NODEFILE=/var/spool/torque/aux//4750540.apollo-acf
+PERL_MM_OPT=INSTALL_BASE=/nics/b/home/rsitton2/perl5
+PBS_O_PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/condabin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/bin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin:/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/rsitton2/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/rsitton2/.local/bin:/nics/b/home/rsitton2/bin
+MODULESBEGINENV=/tmp/tmp.0OuuHKdn8G
+I_MPI_ROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/bin/env
+World size: 1
+epoch 0 num_iters 7500 loss 1.408808980297049 elapsed time (s) 25.481847988441586
+epoch 1 num_iters 7500 loss 0.9241771430358291 elapsed time (s) 50.86394836008549
+epoch 2 num_iters 7500 loss 0.885114690061162 elapsed time (s) 76.2778228521347
+epoch 3 num_iters 7500 loss 0.8668278944591681 elapsed time (s) 101.539445258677
+epoch 4 num_iters 7500 loss 0.8511852825269103 elapsed time (s) 126.82256385870278
+epoch 5 num_iters 7500 loss 0.8426025497734546 elapsed time (s) 152.1041457671672
+epoch 6 num_iters 7500 loss 0.8321729748224219 elapsed time (s) 177.36364407278597
+epoch 7 num_iters 7500 loss 0.8209679949519535 elapsed time (s) 202.6351113114506
+epoch 8 num_iters 7500 loss 0.7282759850951532 elapsed time (s) 227.90818507038057
+epoch 9 num_iters 7500 loss 0.6954213170257707 elapsed time (s) 253.17104200460017
+epoch 10 num_iters 7500 loss 0.6866004127405584 elapsed time (s) 278.44525928609073
+epoch 11 num_iters 7500 loss 0.679588438162456 elapsed time (s) 303.72757324390113
+epoch 12 num_iters 7500 loss 0.6740954894776146 elapsed time (s) 328.979630721733
+epoch 13 num_iters 7500 loss 0.6699691162221134 elapsed time (s) 354.2500544600189
+epoch 14 num_iters 7500 loss 0.6666144658274948 elapsed time (s) 379.5095054861158
+epoch 15 num_iters 7500 loss 0.6667030269215505 elapsed time (s) 404.75567151606083
+epoch 16 num_iters 7500 loss 0.6650587707978983 elapsed time (s) 430.0152416136116
+epoch 17 num_iters 7500 loss 0.6641278739112119 elapsed time (s) 455.2740191128105
+epoch 18 num_iters 7500 loss 0.6623788794529935 elapsed time (s) 480.5173242352903
+epoch 19 num_iters 7500 loss 0.6607611530768375 elapsed time (s) 505.74672109261155
+epoch 20 num_iters 7500 loss 0.6612294003941118 elapsed time (s) 530.9691086988896
+epoch 21 num_iters 7500 loss 0.659925247754405 elapsed time (s) 556.4736792054027
+epoch 22 num_iters 7500 loss 0.660291858488818 elapsed time (s) 581.705624602735
+epoch 23 num_iters 7500 loss 0.658619474982967 elapsed time (s) 606.9472286067903
+epoch 24 num_iters 7500 loss 0.658675862827897 elapsed time (s) 632.2417401578277
+epoch 25 num_iters 7500 loss 0.6567718361154199 elapsed time (s) 657.4533856473863
+epoch 26 num_iters 7500 loss 0.6569147356331348 elapsed time (s) 682.6946793869138
+epoch 27 num_iters 7500 loss 0.6569961424623927 elapsed time (s) 707.9264640118927
+epoch 28 num_iters 7500 loss 0.6569108194820583 elapsed time (s) 733.1788316685706
+epoch 29 num_iters 7500 loss 0.6559347781245907 elapsed time (s) 758.42965881899
