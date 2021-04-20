@@ -4,7 +4,7 @@ XALT_ETC_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/etc
 HOSTNAME=acf-sc100
 PBS_VERSION=TORQUE-6.1.1.1
 TG_CLUSTER_PFS=/lustre/haven/user/rsitton2
-_MODULESBEGINENV_=/tmp/tmp.WCYVO6TJ73
+_MODULESBEGINENV_=/tmp/tmp.WVECNbIOjc
 INTEL_LICENSE_FILE=/sw/cs400_centos7.3_optsoftware/intel/licenses/
 IPPROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp
 MPICH_HOME=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64
@@ -37,7 +37,7 @@ CONDA_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/conda
 CPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/include
 PBS_WALLTIME=600
 PBS_MOMPORT=15003
-PBS_GPUFILE=/var/spool/torque/aux//4750418.apollo-acfgpu
+PBS_GPUFILE=/var/spool/torque/aux//4750421.apollo-acfgpu
 ANACONDA3_DIR=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0
 _CE_CONDA=
 PBS_O_QUEUE=batch
@@ -51,7 +51,7 @@ PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/cent
 PBS_O_LOGNAME=rsitton2
 MAIL=/var/spool/mail/rsitton2
 PBS_O_LANG=C.UTF-8
-PBS_JOBCOOKIE=EEB5F7D113AA7648BF6E284C60610635
+PBS_JOBCOOKIE=8DF29907F6E7B75A08C5E86F594BD6F1
 CONDA_PREFIX=/lustre/haven/proj/UTK0150/envs/pytorch181
 TBBROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb
 PWD=/lustre/haven/proj/UTK0150/rsitton5/assignment4
@@ -70,7 +70,7 @@ PE_COMPILER=intel
 PBS_O_SHELL=/bin/bash
 F77=ifort
 CUE_SCRATCH_TYPE=lustre
-PBS_JOBID=4750418.apollo-acf
+PBS_JOBID=4750421.apollo-acf
 _CE_M=
 ENVIRONMENT=BATCH
 HISTCONTROL=ignoredups
@@ -96,52 +96,47 @@ CONDA_DEFAULT_ENV=pytorch181
 ANACONDA3_INC=-I/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/include
 PBS_O_MAIL=/var/spool/mail/rsitton2
 PBS_O_SUBMIT_FILTER=/usr/local/sbin/torque_submitfilter
-PBS_MICFILE=/var/spool/torque/aux//4750418.apollo-acfmic
+PBS_MICFILE=/var/spool/torque/aux//4750421.apollo-acfmic
 LESSOPEN=||/usr/bin/lesspipe.sh %s
-PBS_NP=2
+PBS_NP=1
 CC=icc
 PBS_O_SERVER=apollo-acf
-PBS_NUM_PPN=2
+PBS_NUM_PPN=1
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 I_MPI_ARCH=intel64
 INCLUDE=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
 LMOD_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
-PBS_NODEFILE=/var/spool/torque/aux//4750418.apollo-acf
+PBS_NODEFILE=/var/spool/torque/aux//4750421.apollo-acf
 PERL_MM_OPT=INSTALL_BASE=/nics/b/home/rsitton2/perl5
 PBS_O_PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/condabin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/bin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin:/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/rsitton2/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/rsitton2/.local/bin:/nics/b/home/rsitton2/bin
-MODULESBEGINENV=/tmp/tmp.vNAO6hyw5G
+MODULESBEGINENV=/tmp/tmp.m7uyR6NSyK
 I_MPI_ROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163
 BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
 }
 _=/bin/env
-World size: 2
-epoch 0 num_iters 3750 loss 1.3364088261087737 elapsed time (s) 13.743825105950236
-epoch 1 num_iters 3750 loss 0.9061606536388397 elapsed time (s) 27.416982110589743
-epoch 2 num_iters 3750 loss 0.8600543038104971 elapsed time (s) 41.07328854687512
-epoch 3 num_iters 3750 loss 0.8329696714470783 elapsed time (s) 54.77358531020582
-epoch 4 num_iters 3750 loss 0.8143351763705412 elapsed time (s) 68.4543466027826
-epoch 5 num_iters 3750 loss 0.8037662349998951 elapsed time (s) 82.12351648323238
-epoch 6 num_iters 3750 loss 0.7874507247616848 elapsed time (s) 95.79377811774611
-epoch 7 num_iters 3750 loss 0.7804718572278817 elapsed time (s) 109.52852516807616
-epoch 8 num_iters 3750 loss 0.7748097022657593 elapsed time (s) 123.24903102591634
-epoch 9 num_iters 3750 loss 0.7641960932294528 elapsed time (s) 136.86633173003793
-epoch 10 num_iters 3750 loss 0.7669501769870519 elapsed time (s) 150.5726538989693
-epoch 11 num_iters 3750 loss 0.7632104112972816 elapsed time (s) 164.27030355483294
-epoch 12 num_iters 3750 loss 0.754665650014331 elapsed time (s) 177.93934039585292
-epoch 13 num_iters 3750 loss 0.7489972292688986 elapsed time (s) 191.86927416920662
-epoch 14 num_iters 3750 loss 0.7379082160385947 elapsed time (s) 205.49890453368425
-epoch 15 num_iters 3750 loss 0.7354376407019794 elapsed time (s) 219.16657983884215
-epoch 16 num_iters 3750 loss 0.7294986390608053 elapsed time (s) 232.8219153061509
-epoch 17 num_iters 3750 loss 0.729912659239769 elapsed time (s) 246.4898934904486
-epoch 18 num_iters 3750 loss 0.7271614386706302 elapsed time (s) 259.9684435222298
-epoch 19 num_iters 3750 loss 0.7250049218090872 elapsed time (s) 273.6127353142947
-epoch 20 num_iters 3750 loss 0.7254406115729362 elapsed time (s) 287.11683629080653
-epoch 21 num_iters 3750 loss 0.7240289052569617 elapsed time (s) 300.6922943741083
-epoch 22 num_iters 3750 loss 0.7256641292432944 elapsed time (s) 314.160487966612
-epoch 23 num_iters 3750 loss 0.7268318121922512 elapsed time (s) 327.75352119095623
-epoch 24 num_iters 3750 loss 0.72061435230275 elapsed time (s) 341.2718033324927
-epoch 25 num_iters 3750 loss 0.7225163818739354 elapsed time (s) 354.8312651887536
-epoch 26 num_iters 3750 loss 0.7232617566920817 elapsed time (s) 368.36963439919055
-epoch 27 num_iters 3750 loss 0.7244465883261214 elapsed time (s) 381.91522592678666
-epoch 28 num_iters 3750 loss 0.723437401642402 elapsed time (s) 395.45783356390893
-epoch 29 num_iters 3750 loss 0.7199253097220013 elapsed time (s) 408.98062906228006
+World size: 1
+epoch 0 num_iters 7500 loss 1.2492649372686941 elapsed time (s) 25.287841837853193
+epoch 1 num_iters 7500 loss 0.7864031623609364 elapsed time (s) 50.59861000068486
+epoch 2 num_iters 7500 loss 0.7313827309104304 elapsed time (s) 75.8332949783653
+epoch 3 num_iters 7500 loss 0.7015889527949194 elapsed time (s) 101.13407190330327
+epoch 4 num_iters 7500 loss 0.6795693760152907 elapsed time (s) 126.37441953644156
+epoch 5 num_iters 7500 loss 0.6615227029604216 elapsed time (s) 151.59375016018748
+epoch 6 num_iters 7500 loss 0.6509445953336854 elapsed time (s) 176.81142757460475
+epoch 7 num_iters 7500 loss 0.6238941533992688 elapsed time (s) 202.03500085882843
+epoch 8 num_iters 7500 loss 0.5803080734142413 elapsed time (s) 227.2079474851489
+epoch 9 num_iters 7500 loss 0.5679268403618286 elapsed time (s) 252.25974117219448
+epoch 10 num_iters 7500 loss 0.5630703204136341 elapsed time (s) 277.29612890817225
+epoch 11 num_iters 7500 loss 0.5574659365626673 elapsed time (s) 302.34299222007394
+epoch 12 num_iters 7500 loss 0.5565689824150254 elapsed time (s) 327.38082900829613
+epoch 13 num_iters 7500 loss 0.5529317610256995 elapsed time (s) 352.42401342466474
+epoch 14 num_iters 7500 loss 0.5533265668497731 elapsed time (s) 377.4557404462248
+epoch 15 num_iters 7500 loss 0.550863187526539 elapsed time (s) 402.5024682767689
+epoch 16 num_iters 7500 loss 0.550123846629262 elapsed time (s) 427.54087479785085
+epoch 17 num_iters 7500 loss 0.550070457435896 elapsed time (s) 452.5719405859709
+epoch 18 num_iters 7500 loss 0.5505716814192633 elapsed time (s) 477.80883603543043
+epoch 19 num_iters 7500 loss 0.5471976651030283 elapsed time (s) 502.8617938198149
+epoch 20 num_iters 7500 loss 0.5496584467619657 elapsed time (s) 527.8811529763043
+epoch 21 num_iters 7500 loss 0.5481149174169948 elapsed time (s) 553.374649092555
+epoch 22 num_iters 7500 loss 0.5475092861299713 elapsed time (s) 578.3862478192896
+epoch 23 num_iters 7500 loss 0.5470367172800005 elapsed time (s) 603.4220745991915
+epoch 24 num_iters 7500 loss 0.5473003736897061 elapsed time (s) 628.4471480511129
